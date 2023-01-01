@@ -1,5 +1,10 @@
 import os
 
+    else:
+        dates = f"{days} days ago"
+        with open('data.txt', 'a') as file:
+            file.write(f'{dates} <- this was the commit for the !dai!!\n')
+        
         # staging 
         os.system('git add data.txt')
 
