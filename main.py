@@ -6,7 +6,7 @@ def makeCommits (days : int):
     else:
         dates = f"{days} days ago"
         with open('data.txt', 'a') as file:
-            file.write(f'{dates} <- this was the commit for the day!!\n')
+            file.write(f'{dates} <- this was the commit for the !dsai!!\n')
         
         # staging 
         os.system('git add data.txt')
