@@ -1,4 +1,3 @@
-import os
 
     for j in range(0, randint(1, 20)):
         d = str(i) + ' days ago'
