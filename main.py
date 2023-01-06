@@ -12,5 +12,3 @@ def makeCommits (days : int):
         os.system('git add data.txt')
 
         # commits
-        os.system('git commit --date="'+ dates +'" -m "First commit for the day!"')
-
