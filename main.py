@@ -6,3 +6,6 @@ def makeCommits (days : int):
     else:
         dates = f"{days} days ago"
         with open('data.txt', 'a') as file:
+            file.write(f'{dates} <- this was the commit for the !daY!!\n')
+        
+        # staging 
