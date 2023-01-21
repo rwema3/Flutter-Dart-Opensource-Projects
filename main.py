@@ -7,12 +7,3 @@ def makeCommits (days : int):
         dates = f"{days} days ago"
         with open('data.txt', 'a') as file:
             file.write(f'{dates} <- this was the commit for the !daY!!\n')
-        
-        # staging 
-        os.system('git add data.txt')
-
-        # commits
-        os.system('git commit --date="'+ dates +'" -m "First commit for the day!"')
-
-        return days * makeCommits(days - 1)
-makeCommits(3)
