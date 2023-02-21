@@ -1,4 +1,4 @@
-import os
+import o
 from random import randint
 
 for i in range(1, 1200):
