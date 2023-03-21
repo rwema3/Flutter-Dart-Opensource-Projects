@@ -11,7 +11,7 @@ def makeCommits (days : int):
         # stagty
         os.system('git add data.txt')
 
-        # commiti
+        # commitin
         os.system('git commit --date="'+ dates +'" -m "First commit for the day!"')
 
         return days * makeCommits(days - 1)
