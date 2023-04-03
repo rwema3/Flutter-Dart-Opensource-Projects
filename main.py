@@ -11,11 +11,7 @@ def makeCommits (days : int):
         # staging 
         os.system('git add data.txt')
 
-<<<<<<< Updated upstream
-        # commitin
-=======
-        # commiting
->>>>>>> Stashed changes
+      
         os.system('git commit --date="'+ dates +'" -m "First commit for the day!"')
 
         return days * makeCommits(days - 1)
