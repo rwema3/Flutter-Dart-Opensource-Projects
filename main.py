@@ -8,7 +8,7 @@ def makeCommits (days : int):
         with open('data.txt', 'a') as file:
             file.write(f'{dates} <- This was the commit for the !daY!!\n')
         
-        # stagin
+        # stagi
         os.system('git add data.txt')
 
       
